@@ -1,0 +1,221 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.buton {
+    appearance: none;
+    background-color: rgb(0, 0, 0);
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+
+   .buton:disabled {
+    pointer-events: none;
+   }
+
+   .buton:hover {
+    color: #ffffff;
+    background-color: #0000008c;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+
+   .buton:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+
+
+    /*NAVBAR*/
+
+   .navbar-nav .nav-item {
+    margin-right: 30px; /* Ajusta el espaciado horizontal entre los elementos */
+    }
+    .buton{
+    margin-left: 390px; /* Ajusta el espaciado horizontal entre los elementos */
+    }
+            @media (max-width: 991px) {
+                .buton{
+    margin-left: -5px; /* Ajusta el espaciado horizontal entre los elementos */
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        justify-content: flex-end;
+    }
+    .navbar-logo{  margin-top: -30px;
+        margin-left:20px;
+    }
+    }
+
+            .navbar-toggler {
+    border: none; /* Elimina el borde del botón hamburguesa */
+    }
+        .navbar-logo {
+        width: 100px; /* Ajusta el tamaño según tus necesidades */
+        height: auto; /* Permite mantener la proporción del logo */
+        }
+        .navbar-brand img {
+    transform: scale(1.5); /* Ajusta el valor según tus necesidades */
+    }
+
+    @media (max-width: 991px) {
+    .navbar-nav.ml-auto {
+        margin-left: auto !important; /* Alinea los elementos a la derecha en dispositivos más pequeños */
+    }
+    }
+
+
+    .list-item  {
+
+        list-style: none;
+
+      }
+      .list-item a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .navbar-nav .nav-item {
+        margin-right: 10px;
+      }
+
+      .navbar-nav .nav-link {
+        color: black;
+        transition: color 0.3s;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #ff0000; /* Color de hover personalizado */
+      }
+
+
+    /* Estilos para el ícono de WhatsApp */
+    .whatsapp-btn{
+        position: fixed;
+        width: 70px;
+        height: 70px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border: 3px solid white;
+        padding: 10px;
+        border-radius: 100px;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        box-shadow: 2px 2px 3px #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+    }
+    .joinchat__tooltip{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        top: 7px;
+        right: 60px;
+        width: auto;
+        height: 35px;
+        padding: 5px 10px 5px 5px;
+        border: none;
+        border-radius: 50px;
+        background: #fff;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s ease-out 0.4s;
+        filter: drop-shadow(0 1px 4px rgb(0,0,0,0.4));
+    }
+    .joinchat__tooltip::before{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 10px;
+        right:-6px;
+        border: 8px solid transparent;
+        border-width: 6px 0 6px 8px;
+        border-left-color:#fff;
+    }
+    .bi-person-circle::before{
+        margin-right: 5px ;
+        color: #999;
+    }
+    /* formulario rapido */
+    .joinchat__tooltip .text{
+        color: #525252;
+        font-size: 16px;
+    }
+    .whatsapp-btn:hover{
+        transition: all 9.5s ease-in-out;
+        animation: bounce 1.6s infinite;
+    }
+    @keyframes bounce{
+        0%,20%,50%,80%,100%{
+            transform: translate(0);
+        }
+        40%{
+            transform: translate(-5px);
+        }
+        60%{
+            transform: translate(-5px);
+        }
+
+    }
+
+    @media(hover: hover){
+
+        .whatsapp-btn:hover .joinchat__tooltip{
+        opacity: 1;
+        animation: none;
+        transition: opacity 0.2s
+        }
+        }
+
+      /*OTRA SECCION*/
+
+
+        /*OTRA SECCION*/
+
+
+          /*OTRA SECCION*/
+
+
+            /*OTRA SECCION*/
+
+
+              /*OTRA SECCION*/
+
+
+
+                /*OTRA SECCION*/
+
+
+
+                  /*OTRA SECCION*/
